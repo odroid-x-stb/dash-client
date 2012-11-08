@@ -14,3 +14,11 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+
+###########################################
+
+target/
+dashclient-main/target
+dashclient-main/bin
+dashclient-main/gen
+dashclient-main/.settings
