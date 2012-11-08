@@ -17,8 +17,13 @@ local.properties
 
 ###########################################
 
+.directory
+*~
+
 target/
 dashclient-main/target
 dashclient-main/bin
 dashclient-main/gen
+dashclient-main/libs
 dashclient-main/.settings
+
