@@ -1,4 +1,4 @@
-package odroidx.enseirb.fr;
+package fr.enseirb.odroidx;
 
 import android.app.Activity;
 import android.os.Bundle;
