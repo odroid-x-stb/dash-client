@@ -1,0 +1,3 @@
+include ../defaults.mk
+SOURCES=AbstractAdaptationLogic.cpp AdaptationLogicFactory.cpp AlwaysBestAdaptationLogic.cpp RateBasedAdaptationLogic.cpp
+include ../sublibs.mk

@@ -1,0 +1,3 @@
+include ../defaults.mk
+SOURCES=BlockBuffer.cpp
+include ../sublibs.mk

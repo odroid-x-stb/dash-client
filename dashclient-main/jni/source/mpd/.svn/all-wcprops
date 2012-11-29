@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos2/dash/!svn/ver/197/trunk/libdash/libdash/source/mpd
+END
+AdaptationSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/AdaptationSet.h
+END
+IsoffMainManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos2/dash/!svn/ver/180/trunk/libdash/libdash/source/mpd/IsoffMainManager.cpp
+END
+Segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/dash/!svn/ver/183/trunk/libdash/libdash/source/mpd/Segment.h
+END
+MPDManagerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/MPDManagerFactory.h
+END
+IMPDParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/IMPDParser.h
+END
+SegmentInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentInfo.cpp
+END
+Period.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/Period.cpp
+END
+BasicCMParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/BasicCMParser.h
+END
+MPD.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/MPD.h
+END
+IMPDManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/180/trunk/libdash/libdash/source/mpd/IMPDManager.h
+END
+IsoffMainParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/IsoffMainParser.h
+END
+SegmentList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentList.cpp
+END
+AdaptationSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/AdaptationSet.cpp
+END
+BasicCMManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos2/dash/!svn/ver/180/trunk/libdash/libdash/source/mpd/BasicCMManager.h
+END
+Group.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/Group.h
+END
+SegmentBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentBase.h
+END
+Segment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/dash/!svn/ver/159/trunk/libdash/libdash/source/mpd/Segment.cpp
+END
+BaseUrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/BaseUrl.h
+END
+MPDManagerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/MPDManagerFactory.cpp
+END
+Representation.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos2/dash/!svn/ver/160/trunk/libdash/libdash/source/mpd/Representation.h
+END
+IsoffMainManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/dash/!svn/ver/180/trunk/libdash/libdash/source/mpd/IsoffMainManager.h
+END
+BasicCMParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/BasicCMParser.cpp
+END
+MPD.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/MPD.cpp
+END
+SegmentInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentInfo.h
+END
+Period.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/Period.h
+END
+IsoffMainParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos2/dash/!svn/ver/196/trunk/libdash/libdash/source/mpd/IsoffMainParser.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/dash/!svn/ver/197/trunk/libdash/libdash/source/mpd/Makefile
+END
+BasicCMManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/dash/!svn/ver/180/trunk/libdash/libdash/source/mpd/BasicCMManager.cpp
+END
+Group.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/Group.cpp
+END
+SegmentBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentBase.cpp
+END
+Representation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos2/dash/!svn/ver/173/trunk/libdash/libdash/source/mpd/Representation.cpp
+END
+SegmentList.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/mpd/SegmentList.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos2/dash/!svn/ver/197/trunk/libdash/libdash/source/xml
+END
+DOMParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/xml/DOMParser.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/dash/!svn/ver/197/trunk/libdash/libdash/source/xml/Makefile
+END
+DOMHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/xml/DOMHelper.cpp
+END
+DOMParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/dash/!svn/ver/197/trunk/libdash/libdash/source/xml/DOMParser.h
+END
+DOMHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/xml/DOMHelper.h
+END
+Node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/xml/Node.cpp
+END
+Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos2/dash/!svn/ver/153/trunk/libdash/libdash/source/xml/Node.h
+END

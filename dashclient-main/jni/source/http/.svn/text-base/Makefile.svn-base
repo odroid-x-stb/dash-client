@@ -1,0 +1,3 @@
+include ../defaults.mk
+SOURCES=Chunk.cpp  HTTPConnection.cpp  HTTPConnectionManager.cpp  PersistentHTTPConnection.cpp
+include ../sublibs.mk

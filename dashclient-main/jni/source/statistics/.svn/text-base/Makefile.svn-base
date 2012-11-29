@@ -1,0 +1,3 @@
+include ../defaults.mk
+SOURCES=StatisticsManager.cpp
+include ../sublibs.mk
