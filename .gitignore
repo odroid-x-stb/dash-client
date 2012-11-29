@@ -25,5 +25,6 @@ dashclient-main/target
 dashclient-main/bin
 dashclient-main/gen
 dashclient-main/libs
+dashclient-main/obj
 dashclient-main/.settings
 
