@@ -27,7 +27,7 @@
 
 using namespace dash;
 
-__declspec(dllexport) IDASHManager* __cdecl CreateDashManager()
+IDASHManager* __cdecl CreateDashManager()
 {
     return new DASHManager();
 }

@@ -25,7 +25,7 @@
 #ifndef CHUNK_H_
 #define CHUNK_H_
 
-#include <string>
+#include <string.h>
 #include <vector>
 #include <iostream>
 #include "IHTTPConnection.h"
