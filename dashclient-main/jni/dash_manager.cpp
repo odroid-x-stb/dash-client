@@ -21,7 +21,6 @@ JNIEXPORT jint JNICALL Java_fr_enseirb_odroidx_DashManager_openStream(JNIEnv * e
 	if (mediaUrl == NULL) {
 		return EXIT_FAILURE;
 	}
-	__android_log_print(ANDROID_LOG_ERROR, "DEBUG", "Media: %s", mediaUrl);
 	IDASHManager* manager = CreateDashManager();
 	manager->setBufferLength(30);
 	bool is_opened = manager->open(const_cast<char*> (mediaUrl));

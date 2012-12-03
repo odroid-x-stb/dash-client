@@ -16,6 +16,8 @@
  */
 #define IN_LIBXML
 #include "libxml.h"
+#include <android/log.h>
+#include <errno.h>
 
 #ifdef LIBXML_READER_ENABLED
 #include <string.h> /* for memset() only ! */
@@ -5223,9 +5225,13 @@ xmlReaderForDoc(const xmlChar * cur, const char *URL, const char *encoding,
 xmlTextReaderPtr
 xmlReaderForFile(const char *filename, const char *encoding, int options)
 {
+	__android_log_write(ANDROID_LOG_ERROR,"DEBUG XML", "Call received");
     xmlTextReaderPtr reader;
 
+    __android_log_write(ANDROID_LOG_ERROR,"file", filename);
     reader = xmlNewTextReaderFilename(filename);
+    __android_log_print(ANDROID_LOG_ERROR,"DEBUG XML", "Reader: %s", reader==NULL?"true":"false");
+    __android_log_write(ANDROID_LOG_ERROR,"socket errno", strerror(errno));
     if (reader == NULL)
         return (NULL);
     xmlTextReaderSetup(reader, NULL, NULL, encoding, options);

@@ -46,10 +46,7 @@ Node*   DOMParser::getRootNode              () const
 }
 bool    DOMParser::parse                    ()
 {
-	__android_log_write(ANDROID_LOG_ERROR,"file", this->url.c_str());
     this->reader = xmlReaderForFile(this->url.c_str(), NULL, 0);
-    __android_log_write(ANDROID_LOG_ERROR,"socket errno", strerror(errno));
-
     if(this->reader == NULL)
         return false;
 
