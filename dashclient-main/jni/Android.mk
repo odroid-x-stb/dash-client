@@ -180,28 +180,19 @@ LOCAL_SRC_FILES += libunicode/stubdata.c
 # We make the ICU data directory relative to $ANDROID_ROOT on Android, so both
 # device and sim builds can use the same codepath, and it's hard to break one
 # without noticing because the other still works.
-local_cflags := '-DICU_DATA_DIR_PREFIX_ENV_VAR="ANDROID_ROOT"'
-local_cflags += '-DICU_DATA_DIR="/usr/icu"'
+#local_cflags := '-DICU_DATA_DIR_PREFIX_ENV_VAR="ANDROID_ROOT"'
+#local_cflags += '-DICU_DATA_DIR="/usr/icu"'
 
 # bionic doesn't have <langinfo.h>.
 local_cflags += -DU_HAVE_NL_LANGINFO_CODESET=0
 # bionic has timezone instead of __timezone.
 local_cflags += -DU_TIMEZONE=timezone
-
 local_cflags += -D_REENTRANT -DU_COMMON_IMPLEMENTATION
+LOCAL_CFLAGS := $(local_cflags) -frtti -DPIC -fPIC
+#local_cflags += -O3 -fvisibility=hidden
 
-local_cflags += -O3 -fvisibility=hidden
 #local_ldlibs := -ldl -lm -lpthread
-
-
-#
-# Build for the target (device).
-#
-
-#LOCAL_C_INCLUDES := $(c_includes) \
-                    abi/cpp/include
-LOCAL_CFLAGS := $(local_cflags) --rtti -DPIC -fPIC
-LOCAL_RTTI_FLAG := -frtti
+#LOCAL_RTTI_FLAG := -frtti
 LOCAL_SHARED_LIBRARIES += libgabi++ libdl
 #LOCAL_LDLIBS += $(local_ldlibs)
 LOCAL_MODULE := libicuuc
