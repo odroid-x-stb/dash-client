@@ -23,6 +23,7 @@
  *****************************************************************************/
 
 #include "DASHManager.h"
+#include <android/log.h>
 
 using namespace dash;
 using namespace dash::http;
@@ -50,6 +51,7 @@ DASHManager::~DASHManager       ()
 
 bool    DASHManager::open               (char *path)
 {
+	__android_log_print(ANDROID_LOG_ERROR, "DEBUG", "Media: %s", path);
     DOMParser parser(path);
 
     if(!parser.parse())

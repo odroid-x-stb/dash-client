@@ -301,5 +301,6 @@ LOCAL_SRC_FILES += source/xml/Node.cpp
 
 #LOCAL_CFLAGS    := -I libxml/include
 LOCAL_C_INCLUDES += libxml/include #libxml/external/icu4c/common
+LOCAL_LDLIBS := -llog
 LOCAL_STATIC_LIBRARIES := libxml2
 include $(BUILD_SHARED_LIBRARY)
